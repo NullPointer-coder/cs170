@@ -10,6 +10,7 @@ def main():
     apr = eval(input("Enter the annual interest rate: "))
 
     for i in range(10):
+        # calculate the principal
         principal = principal * (1 + apr)
 
     print ("The value in 10 years is:", principal)

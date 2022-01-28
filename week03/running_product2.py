@@ -1,5 +1,5 @@
 # running product 2
-# desc
+# this program is to calculate the n**k
 # Jingbo Wang
 
 def running_product2():
