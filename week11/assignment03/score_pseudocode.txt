@@ -1,0 +1,35 @@
+build a window
+build a Cardinal Coordinate System
+
+Initialize Y1 to 92.5
+Initialize Y2 to 95
+Initialize Y3 to 90
+
+Initialize file to in_file
+open the in_file by GUI
+
+for one line in in_file
+  split line to each one word storing into a line list
+  Initialize name to null
+  for j in range of line's length
+    if list[j] is not number
+      add list[j] into name
+  erease leading and triling space
+
+  store name into student_name Text
+  draw student_name in window by name
+  Y1 minus 10
+
+  store the last element of line list into score
+
+  Initialize p1 as left-top of student_score's rectangle
+  Initialize p2 as right-bottom of student_score's rectangle
+  Initialize  student_score as rectangle
+  draw student_score in window by score
+  Y2 minus 10
+  Y3 minus 10
+
+
+
+
+
