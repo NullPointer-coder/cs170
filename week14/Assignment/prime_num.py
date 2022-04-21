@@ -16,9 +16,13 @@ def is_prime(n):
 
 def main():
     print("The program to find the prime numbes between 3 and n.")
-    # get input by user
-    number = int(input("Please enter the number to check:"))
-
+    # get input by user if number > 2
+    while True:
+         number = int(input("Please enter the number to check:"))
+         if number > 2:
+              break
+         print("Input number large than 2! Try agin!") 
+    
     # create a empty list to store prime_number
     prime_num_list = []
     
